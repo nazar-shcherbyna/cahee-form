@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+a, button {
+    transition: all .3s ease-in-out 
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bgc {
+    background: url(../img/bgc.jpg) 0 0/cover no-repeat;
+    min-height: 100vh;
+}
+
+.cahee {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.cahee h1 {
+    margin: 0;
+    text-align: center;
+    padding: 90px 0 40px;
+    font-weight: 700;
+    font-size: 9rem;
+}
+
+.cahee .h1 {
+    font-weight: 200;
+    font-size: 1.7rem;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cahee__form {
+    display: flex;
+    margin: 40px 0 0 0;
+}
+
+.cahee__input {
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+}
+
+.cahee__input input, 
+.cahee__input textarea {
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #00c4c4;
+    opacity: .5;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 15px;
+}
+
+.cahee__input input::placeholder,
+.cahee__input textarea::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cahee__input input:active,
+.cahee__input input:focus,
+.cahee__input textarea:active, 
+.cahee__input textarea:focus {
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+#text-more {
+    height: 250px;
+}
+
+.cahee__info {
+    margin: 0 0 0 170px;
+}
+
+.cahee__info h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.cahee__info .h2 {
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 5px 0 20px;
+}
+
+footer {
+    background-color: #262626;
+}
+
+.cahee--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.cahee__company {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #b9b9b9;
+}
+
+.cahee__some {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #b9b9b9;
+}
+
+.cahee__some > span {
+    color: #ff2b58;
+    font-weight: 400;
+}
